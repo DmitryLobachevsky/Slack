@@ -13,7 +13,7 @@ body, html {
 
 .Header {
   grid-area: Header;
-  min-height: 70px;
+  min-height: 35px;
   background-color: #2b092b;
   color: white;
   border-bottom: 1px solid black;
@@ -32,7 +32,7 @@ body, html {
 
 .Details {
   grid-area: Details;
-  min-width: 350px;
+  min-width: 200px;
   overflow: auto;
   resize: horizontal;
   background-color: #3F0E40;
@@ -40,53 +40,40 @@ body, html {
 
 .light {
   border-radius: 1000px;
-  width: 30px;
-  height: 30px;
+  width: 10px;
+  height: 10px;
 }
 
 .search {
   width: 30%;
-  height: 50px;
-  font-size: 25px;
+  height: 20px;
+  font-size: 15px;
   background-color: #661a66;
   color: rgb(136, 129, 129)
 }
 
 input[type="search"]::placeholder {
-  padding-top: 20px;
-  font-size: 25px;
+  font-size: 15px;
   color: rgb(214, 203, 203)
  
 }
 
 .question-mark {
-  padding: 5px;
-  padding-right: 15px;
+  padding-right: 9px;
   border: 1px solid white;
   border-radius: 1000px;
-}
-
-.workspace {
-  width: 80px;
-  height: 80px;
-  font-size: 26px;
-  text-align: center;
 }
 
 .workspace-border {
   border: 2px solid white;
 }
 
-.channel {
-  font-size: 30px;
-}
-
 .chat__man {
-  width: 90px;
-  height: 90px;
+  width: 30px;
+  height: 30px;
 }
 
 .data{
-  width: 11%;
+  width: 15%;
   text-align: center;
 }

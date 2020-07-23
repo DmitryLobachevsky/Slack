@@ -9,7 +9,7 @@
 </head>
 <body>
   <div class="grid-container">
-    <div class="Header py-4 px-1">
+    <div class="Header py-1 px-1">
       <div class="flex justify-between items-center">
         <div class="flex">
           <!-- traffic light -->
@@ -27,21 +27,21 @@
       </div>
     </div>
     <div class="Sidebar flex flex-col p-2 text-lg">
-      <div class="rounded-md p-4 bg-red-400 mb-3 mt-3 workspace workspace-border">MB</div>
-      <div class="rounded-md p-4 bg-red-400 mb-3 workspace workspace-border">SA</div>
-      <div class="rounded-md p-4 bg-red-400 workspace workspace-border">RL</div>
+      <div class="rounded-md p-2 bg-red-400 mb-3 mt-3 workspace-border">MB</div>
+      <div class="rounded-md p-2 bg-red-400 mb-3 workspace-border">SA</div>
+      <div class="rounded-md p-2 bg-red-400 workspace-border">RL</div>
     </div>
     <div class="Details text-white">
       <!-- channel details -->
       <div class="p-4 border-b border-black hover:bg-pink-800 cursor-pointer">
-        <p class="channel">Ais  ⋎</p>
+        <h1 class="text-lg">Ais  ⋎</h1>
         <div class="light inline-block w-2 h-2 bg-green-400 mr-4"></div>
-        <p class="inline-block text-xl">Dmitry Lobachevsky</p>
+        <h2 class="inline-block text-sm">Dmitry Lobachevsky</h2>
       </div>
       
       <!-- object list -->
       <div class="p-6 border-b border-black">
-        <ul class="text-3xl p-2 ">
+        <ul class="text-lg p-2 ">
           <li></li>
           <li class="mt-2 hover:bg-pink-800 cursor-pointer"><span>✉</span> Threads</li>
           <li class="mt-2 hover:bg-pink-800 cursor-pointer"><span>😜</span> Mentions & reactions</li>
@@ -54,8 +54,8 @@
       
       <!-- channel list -->
       <div class="p-6">
-        <div class="text-3xl hover:bg-pink-800 cursor-pointer">▼ Channels</div>
-        <ul class="text-3xl p-2">
+        <div class="text-lg hover:bg-pink-800 cursor-pointer">▼ Channels</div>
+        <ul class="text-lg p-2">
           <li></li>
           <li class="mt-2 hover:bg-pink-800 cursor-pointer"># general</li>
           <li class="mt-2 hover:bg-pink-800 cursor-pointer"># questions</li>
@@ -67,32 +67,32 @@
     <div class="Content text-black p-2">
       <!-- channel deets -->
       <div class="border-b border-gray p-4">
-        <h1 class="text-3xl font-bold"># general</h1>
-        <span class="text-2xl">🤔 680 | Add a topic</span>
+        <h1 class="text-lg font-bold"># general</h1>
+        <span class="text-ms">🤔 680 | Add a topic</span>
       </div>
       <!-- messages -->
     <div>
       <!-- first message -->
-      <div class="flex p-8 border-b border-gray hover:bg-gray-100">
+      <div class="flex p-4 border-b border-gray hover:bg-gray-100">
         <img class="chat__man rounded-md cursor-pointer" src="https://ca.slack-edge.com/T015KT4HMFG-U016JG9TRMW-ed665a59e503-512" alt="">
         <div class="ml-2 ">
-          <h1 class="inline text-2xl font-bold hover:underline cursor-pointer">Vadzim Zhebrak</h1>
-          <span class="text-xl text-gray-600 hover:underline cursor-pointer">  2:28 PM</span>
-          <p class="text-2xl p-4">Hello my question is not about js assignments.
-            Can you please tell me: the structure of the object sent by the POST method can be any? or does it depend on the backend? For example, I get comments in one
+          <h1 class="inline text-lg font-bold hover:underline cursor-pointer">Vadzim Zhebrak</h1>
+          <span class="text-xs text-gray-600 hover:underline cursor-pointer">  2:28 PM</span>
+          <p class="text-xs ">Hello my question is not about js assignments.</p>
+          <p class="text-xs ">Can you please tell me: the structure of the object sent by the POST method can be any? or does it depend on the backend? For example, I get comments in one
              view, can I post them in another view, I need to pass a lot of information about the comment.</p>
         </div>
       </div>
 
-      <div class="data mr-auto ml-auto border border-gray-400 rounded-full text-2xl">Sunday, July 19th ⊻</div>
+      <div class="data mr-auto ml-auto border border-gray-400 rounded-full text-sm">Sunday, July 19th ⊻</div>
       
-      <div class="flex p-8 hover:bg-gray-100">
+      <div class="flex p-4 hover:bg-gray-100">
         <img class="chat__man rounded-md cursor-pointer" src="./img/no_foto.jpg" alt="">
         <div class="ml-2 ">
-          <h1 class="inline text-2xl font-bold hover:underline cursor-pointer">Василий Сергеев</h1>
-          <span class="text-xl text-gray-600 hover:underline cursor-pointer">  7:00 PM</span>
-          <p class="text-2xl p-4 text-gray-500">Image from Android ▼</p>
-          <img src="https://files.slack.com/files-pri/T015KT4HMFG-F017C2HLTTL/200026600365_254843.jpg"  alt="mem" class="w-3/4">
+          <h1 class="inline text-lg font-bold hover:underline cursor-pointer">Василий Сергеев</h1>
+          <span class="text-xs text-gray-600 hover:underline cursor-pointer">  7:00 PM</span>
+          <p class="text-xs text-gray-500">Image from Android ▼</p>
+          <img src="https://files.slack.com/files-pri/T015KT4HMFG-F017C2HLTTL/200026600365_254843.jpg"  alt="mem" class="w-2/6">
         </div>
       </div>
 
