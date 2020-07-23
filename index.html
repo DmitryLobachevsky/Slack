@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <title>Slack</title>
+</head>
+<body>
+  <div class="grid-container">
+    <div class="Header py-4 px-1">
+      <div class="flex justify-between items-center">
+        <div class="flex">
+          <!-- traffic light -->
+          <div class="light bg-red-400 mr-4"></div>
+          <div class="light bg-yellow-400 mr-4"></div>
+          <div class="light bg-green-400 mr-4"></div>
+        </div>
+        <!-- input/ search -->
+        <input type="search" placeholder="   Shearch Ais" class="search rounded-md border border-black
+        text-sm hover:border-gray-300  cursor-pointer" />
+        <!-- question mark -->
+        <div class="question-mark hover:bg-purple-700  cursor-pointer">
+          <p class="ml-2">?</p>
+        </div>
+      </div>
+    </div>
+    <div class="Sidebar flex flex-col p-2 text-lg">
+      <div class="rounded-md p-4 bg-red-400 mb-3 mt-3 workspace workspace-border">MB</div>
+      <div class="rounded-md p-4 bg-red-400 mb-3 workspace workspace-border">SA</div>
+      <div class="rounded-md p-4 bg-red-400 workspace workspace-border">RL</div>
+    </div>
+    <div class="Details text-white">
+      <!-- channel details -->
+      <div class="p-4 border-b border-black hover:bg-pink-800 cursor-pointer">
+        <p class="channel">Ais  ⋎</p>
+        <div class="light inline-block w-2 h-2 bg-green-400 mr-4"></div>
+        <p class="inline-block text-xl">Dmitry Lobachevsky</p>
+      </div>
+      
+      <!-- object list -->
+      <div class="p-6 border-b border-black">
+        <ul class="text-3xl p-2 ">
+          <li></li>
+          <li class="mt-2 hover:bg-pink-800 cursor-pointer"><span>✉</span> Threads</li>
+          <li class="mt-2 hover:bg-pink-800 cursor-pointer"><span>😜</span> Mentions & reactions</li>
+          <li class="mt-2 hover:bg-pink-800 cursor-pointer"><span>⭐</span> Saved items</li>
+          <li class="mt-2 hover:bg-pink-800 cursor-pointer"><span>😐</span> People</li>
+          <li class="mt-2 hover:bg-pink-800 cursor-pointer"><span>💢</span> Apps</li>
+          <li class="mt-2 hover:bg-pink-800 cursor-pointer"><span>🌀</span> Files</li>
+        </ul>
+      </div>
+      
+      <!-- channel list -->
+      <div class="p-6">
+        <div class="text-3xl hover:bg-pink-800 cursor-pointer">▼ Channels</div>
+        <ul class="text-3xl p-2">
+          <li></li>
+          <li class="mt-2 hover:bg-pink-800 cursor-pointer"># general</li>
+          <li class="mt-2 hover:bg-pink-800 cursor-pointer"># questions</li>
+          <li class="mt-2 hover:bg-pink-800 cursor-pointer"># random</li>
+          <li class="mt-2 hover:bg-pink-800 cursor-pointer"># task1</li>
+        </ul>
+      </div>
+    </div>
+    <div class="Content text-black p-2">
+      <!-- channel deets -->
+      <div class="border-b border-gray p-4">
+        <h1 class="text-3xl font-bold"># general</h1>
+        <span class="text-2xl">🤔 680 | Add a topic</span>
+      </div>
+      <!-- messages -->
+    <div>
+      <!-- first message -->
+      <div class="flex p-8 border-b border-gray hover:bg-gray-100">
+        <img class="chat__man rounded-md cursor-pointer" src="https://ca.slack-edge.com/T015KT4HMFG-U016JG9TRMW-ed665a59e503-512" alt="">
+        <div class="ml-2 ">
+          <h1 class="inline text-2xl font-bold hover:underline cursor-pointer">Vadzim Zhebrak</h1>
+          <span class="text-xl text-gray-600 hover:underline cursor-pointer">  2:28 PM</span>
+          <p class="text-2xl p-4">Hello my question is not about js assignments.
+            Can you please tell me: the structure of the object sent by the POST method can be any? or does it depend on the backend? For example, I get comments in one
+             view, can I post them in another view, I need to pass a lot of information about the comment.</p>
+        </div>
+      </div>
+
+      <div class="data mr-auto ml-auto border border-gray-400 rounded-full text-2xl">Sunday, July 19th ⊻</div>
+      
+      <div class="flex p-8 hover:bg-gray-100">
+        <img class="chat__man rounded-md cursor-pointer" src="./img/no_foto.jpg" alt="">
+        <div class="ml-2 ">
+          <h1 class="inline text-2xl font-bold hover:underline cursor-pointer">Василий Сергеев</h1>
+          <span class="text-xl text-gray-600 hover:underline cursor-pointer">  7:00 PM</span>
+          <p class="text-2xl p-4 text-gray-500">Image from Android ▼</p>
+          <img src="https://files.slack.com/files-pri/T015KT4HMFG-F017C2HLTTL/200026600365_254843.jpg"  alt="mem" class="w-3/4">
+        </div>
+      </div>
+
+    </div>
+    </div>
+  </div>
+        
+
+</body> 
+</html>
