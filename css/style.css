@@ -87,7 +87,7 @@ input[type="search"]::placeholder {
 }
 
 textarea {
-  width: 98%;
+  width: 95%;
   max-height: 20px;
   outline: none;
   
