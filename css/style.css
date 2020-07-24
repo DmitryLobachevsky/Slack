@@ -48,7 +48,7 @@ body, html {
   width: 30%;
   height: 20px;
   font-size: 15px;
-  background-color: #661a66;
+  background-color: rgb(67,30,68);
   color: rgb(136, 129, 129)
 }
 
@@ -68,6 +68,10 @@ input[type="search"]::placeholder {
   border: 2px solid white;
 }
 
+.border__hex {
+  border-color: #522653;
+}
+
 .chat__man {
   width: 30px;
   height: 30px;
@@ -76,4 +80,15 @@ input[type="search"]::placeholder {
 .data{
   width: 15%;
   text-align: center;
+}
+
+.message_box {
+  height: 60px;
+}
+
+textarea {
+  width: 98%;
+  max-height: 20px;
+  outline: none;
+  
 }

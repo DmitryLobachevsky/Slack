@@ -33,14 +33,14 @@
     </div>
     <div class="Details text-white">
       <!-- channel details -->
-      <div class="p-4 border-b border-black hover:bg-pink-800 cursor-pointer">
+      <div class="p-4 border-b border__hex hover:bg-pink-800 cursor-pointer">
         <h1 class="text-lg">Ais  ⋎</h1>
         <div class="light inline-block w-2 h-2 bg-green-400 mr-4"></div>
         <h2 class="inline-block text-sm">Dmitry Lobachevsky</h2>
       </div>
       
       <!-- object list -->
-      <div class="p-6 border-b border-black">
+      <div class="p-6 border-b border__hex">
         <ul class="text-lg p-2 ">
           <li></li>
           <li class="mt-2 hover:bg-pink-800 cursor-pointer"><span>✉</span> Threads</li>
@@ -66,7 +66,7 @@
     </div>
     <div class="Content text-black p-2">
       <!-- channel deets -->
-      <div class="border-b border-gray p-4">
+      <div class="border-b border-gray p-3">
         <h1 class="text-lg font-bold"># general</h1>
         <span class="text-ms">🤔 680 | Add a topic</span>
       </div>
@@ -85,17 +85,35 @@
       </div>
 
       <div class="data mr-auto ml-auto border border-gray-400 rounded-full text-sm">Sunday, July 19th ⊻</div>
-      
+      <!-- second message -->
       <div class="flex p-4 hover:bg-gray-100">
         <img class="chat__man rounded-md cursor-pointer" src="./img/no_foto.jpg" alt="">
         <div class="ml-2 ">
           <h1 class="inline text-lg font-bold hover:underline cursor-pointer">Василий Сергеев</h1>
           <span class="text-xs text-gray-600 hover:underline cursor-pointer">  7:00 PM</span>
           <p class="text-xs text-gray-500">Image from Android ▼</p>
-          <img src="https://files.slack.com/files-pri/T015KT4HMFG-F017C2HLTTL/200026600365_254843.jpg"  alt="mem" class="w-2/6">
+          <img src="./img/mem.jpg"  alt="mem" class="w-2/6">
         </div>
       </div>
 
+      <div class="message_box border border-gray-600 rounded-md m-4 mt-2 ">
+        <textarea name="" id="" cols="30" rows="10" placeholder="Message #general" class="m-2 mt-1 text-xs"></textarea>
+        <div class="flex justify-between bg-gray-200 border-t border-gray-400 -mt-2">
+          <div class="flex ml-2">
+            <span class= "w-6 text-center hover:bg-blue-500 cursor-pointer">⚡</span>
+            <span class="ml-1 hover:bg-gray-400 cursor-pointer w-6 text-center"><strong>B</strong></span>
+            <span class="ml-1 hover:bg-gray-400 cursor-pointer w-6 text-center"><em>I</em></span>
+            <span class="ml-1 hover:bg-gray-400 cursor-pointer w-6 text-center">ꬳ</span>
+          </div>
+          <div class="flex mr-2">
+            <span class="mr-2 w-6 text-center hover:bg-gray-400 cursor-pointer">Aa</span>
+            <span class="mr-2 w-6 text-center hover:bg-gray-400 cursor-pointer">@</span>
+            <span class="mr-2 w-6 text-center hover:bg-gray-400 cursor-pointer">😃</span>
+            <span class="mr-2 w-6 text-center hover:bg-gray-400 cursor-pointer">📎</span>
+            <span class="w-6 text-center hover:bg-green-400 cursor-pointer">🚀</span>
+          </div>
+        </div>
+      </div>
     </div>
     </div>
   </div>
