@@ -60,7 +60,7 @@ input[type="search"]::placeholder {
 
 .question-mark {
   padding-right: 9px;
-  border: 1px solid white;
+  border: 2px solid white;
   border-radius: 1000px;
 }
 
@@ -70,6 +70,14 @@ input[type="search"]::placeholder {
 
 .border__hex {
   border-color: #522653;
+}
+
+.list__hover:hover {
+  background-color: #2b092b;
+}
+
+.font_color {
+  color: #bcabbc;
 }
 
 .chat__man {
@@ -90,5 +98,4 @@ textarea {
   width: 95%;
   max-height: 20px;
   outline: none;
-  
 }

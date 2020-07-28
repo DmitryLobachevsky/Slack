@@ -33,42 +33,55 @@
     </div>
     <div class="Details text-white">
       <!-- channel details -->
-      <div class="p-4 border-b border__hex hover:bg-pink-800 cursor-pointer">
-        <h1 class="text-lg">Ais  ⋎</h1>
+      <div class="p-3 border-b border__hex list__hover cursor-pointer flex justify-between items-center">
+        <div >
+          <h1 class="text-lg">Ais  ⋎</h1>
         <div class="light inline-block w-2 h-2 bg-green-400 mr-4"></div>
-        <h2 class="inline-block text-sm">Dmitry Lobachevsky</h2>
+        <h2 class="inline-block text-xs -ml-4 font_color">Dmitry Lobachevsky</h2>
+        </div>
+        <div class="inline-block bg-white w-8 h-8 border rounded-full pl-2"><span class="-m-1">💌</span></div>
       </div>
       
       <!-- object list -->
-      <div class="p-6 border-b border__hex">
-        <ul class="text-lg p-2 ">
-          <li></li>
-          <li class="mt-2 hover:bg-pink-800 cursor-pointer"><span>✉</span> Threads</li>
-          <li class="mt-2 hover:bg-pink-800 cursor-pointer"><span>😜</span> Mentions & reactions</li>
-          <li class="mt-2 hover:bg-pink-800 cursor-pointer"><span>⭐</span> Saved items</li>
-          <li class="mt-2 hover:bg-pink-800 cursor-pointer"><span>😐</span> People</li>
-          <li class="mt-2 hover:bg-pink-800 cursor-pointer"><span>💢</span> Apps</li>
-          <li class="mt-2 hover:bg-pink-800 cursor-pointer"><span>🌀</span> Files</li>
-        </ul>
+      <div class="p-3 -mt-2 border-b border__hex text-sm flex flex-col">
+        <div class="mt-2 list__hover cursor-pointer font_color"><span>✉</span> Threads</div>
+        <div class="mt-2 list__hover cursor-pointer font_color"><span>😜</span> Mentions & reactions</div>
+        <div class="mt-2 list__hover cursor-pointer font_color"><span>⭐</span> Saved items</div>
+        <div class="mt-2 list__hover cursor-pointer font_color"><span>😐</span> People</div>
+        <div class="mt-2 list__hover cursor-pointer font_color"><span>💢</span> Apps</div>
+        <div class="mt-2 list__hover cursor-pointer font_color"><span>🌀</span> Files</div>
       </div>
       
       <!-- channel list -->
-      <div class="p-6">
-        <div class="text-lg hover:bg-pink-800 cursor-pointer">▼ Channels</div>
-        <ul class="text-lg p-2">
-          <li></li>
-          <li class="mt-2 hover:bg-pink-800 cursor-pointer"># general</li>
-          <li class="mt-2 hover:bg-pink-800 cursor-pointer"># questions</li>
-          <li class="mt-2 hover:bg-pink-800 cursor-pointer"># random</li>
-          <li class="mt-2 hover:bg-pink-800 cursor-pointer"># task1</li>
-        </ul>
+      <div class="p-4 text-sm">
+        <div class="text-sm list__hover cursor-pointer font_color flex flex-col">▼ Channels</div>
+        <div class="mt-2 list__hover cursor-pointer font_color"># general</div>
+        <div class="mt-2 list__hover cursor-pointer font_color"># questions</div>
+        <div class="mt-2 list__hover cursor-pointer font_color"># random</div>
+        <div class="mt-2 list__hover cursor-pointer font_color"># task1</div>
+      </div>
+
+      <!-- Direct  -->
+      <div class="p-4 text-sm">
+        <div class="text-sm list__hover cursor-pointer font_color flex flex-col">▼ Direct messages</div>
+        <div class="mt-2 list__hover cursor-pointer text-white"><span>💚</span><strong>Slackbot</strong></div>
+        <div class="mt-2 list__hover cursor-pointer font_color">
+          <div class="light inline-block w-2 h-2 bg-green-400 mr-4"></div>
+          <h2 class="inline-block text-xs -ml-4 font_color">Dmitry Lobachevsky (you)</h2>
+        </div>
       </div>
     </div>
     <div class="Content text-black p-2">
       <!-- channel deets -->
-      <div class="border-b border-gray p-3">
-        <h1 class="text-lg font-bold"># general</h1>
-        <span class="text-ms">🤔 680 | Add a topic</span>
+      <div class="flex justify-between items-center">
+        <div class="border-b border-gray p-1">
+          <h1 class="text-sm font-bold"><strong># random ☆</strong></h1>
+          <span class="text-sm">🤔 680 | Add a topic</span>
+        </div>
+        <div class=" hover:bg-blue-100 cursor-pointer text-center">
+          <div class="m-2 mr-0 inline-block border w-5 text-center border-gray-600 rounded-full text-sm text-gray-600"><span>i</span></div>
+          <h2 class="inline-block text-xs mr-5 text-gray-600">Details</h2>
+        </div>
       </div>
       <!-- messages -->
     <div>
@@ -76,7 +89,7 @@
       <div class="flex p-4 border-b border-gray hover:bg-gray-100">
         <img class="chat__man rounded-md cursor-pointer" src="https://ca.slack-edge.com/T015KT4HMFG-U016JG9TRMW-ed665a59e503-512" alt="">
         <div class="ml-2 ">
-          <h1 class="inline text-lg font-bold hover:underline cursor-pointer">Vadzim Zhebrak</h1>
+          <h1 class="inline text-sm font-bold hover:underline cursor-pointer">Vadzim Zhebrak</h1>
           <span class="text-xs text-gray-600 hover:underline cursor-pointer">  2:28 PM</span>
           <p class="text-xs ">Hello my question is not about js assignments.</p>
           <p class="text-xs ">Can you please tell me: the structure of the object sent by the POST method can be any? or does it depend on the backend? For example, I get comments in one
@@ -89,7 +102,7 @@
       <div class="flex p-4 hover:bg-gray-100">
         <img class="chat__man rounded-md cursor-pointer" src="./img/no_foto.jpg" alt="">
         <div class="ml-2 ">
-          <h1 class="inline text-lg font-bold hover:underline cursor-pointer">Василий Сергеев</h1>
+          <h1 class="inline text-sm font-bold hover:underline cursor-pointer">Василий Сергеев</h1>
           <span class="text-xs text-gray-600 hover:underline cursor-pointer">  7:00 PM</span>
           <p class="text-xs text-gray-500">Image from Android ▼</p>
           <img src="./img/mem.jpg"  alt="mem" class="w-2/6">
